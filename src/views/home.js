@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet'
 
 import FeatureCard from '../components/feature-card'
 import Question from '../components/question'
-import Question from './question'
 import './home.css'
 import SolanaPrice from './SolanaPrice.js'
 
