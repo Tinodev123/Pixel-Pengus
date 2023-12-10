@@ -5,13 +5,11 @@ import { Helmet } from 'react-helmet'
 import FeatureCard from '../components/feature-card'
 import Question from '../components/question'
 import './home.css'
-import SolanaPrice from './SolanaPrice'
+import SolanaPrice from './SolanaPrice.js'
 
 const Home = (props) => {
   return (
  
-      
-   
     <div className="home-container">
       <Helmet>
         <title>Pixel Pengus</title>
