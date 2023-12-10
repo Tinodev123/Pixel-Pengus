@@ -79,7 +79,7 @@ const Home = (props) => {
           <div className="home-container01">
             <h1 className="home-hero-heading Heading">Pixel Penguins</h1>
             <span className="home-hero-sub-heading">
-              Solar PEnguins to rule over solana
+              Solar Penguins to rule over solana
             </span>
             <div className="home-btn-group">
               <button className="home-hero-button1 button">Mint</button>
@@ -95,8 +95,6 @@ const Home = (props) => {
           <div className="home-container02">
             <h2 className="home-details-heading heading2 Heading">
               About Pixel Penguins
-              Your NFT Store
-              <SolanaPrice />
             </h2>
             <span className="home-details-sub-heading">
               Pixel Penguins is a revolutionary NFT platform built on the Solana
@@ -168,7 +166,8 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container08">
-                <span className="home-free-plan-price">0.1 Sol =</span>
+                <span className="home-free-plan-price">
+              <SolanaPrice /></span>
               </div>
               <div className="home-container09">
                 <div className="home-container10">
