@@ -6,13 +6,12 @@ import FeatureCard from '../components/feature-card'
 import Question from '../components/question'
 import './home.css'
 import SolanaPrice from './SolanaPrice.js'
-
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Pixel Pengus</title>
-        <meta property="og:title" content="Pixel Pengus" />
+        <title>Sandy Inconsequential Reindeer</title>
+        <meta property="og:title" content="Sandy Inconsequential Reindeer" />
       </Helmet>
       <div className="home-header">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
@@ -82,7 +81,6 @@ const Home = (props) => {
           <div className="home-container01">
             <h1 className="home-hero-heading Heading">Pixel Penguins</h1>
             <span className="home-hero-sub-heading">
-              Solar Penguins to rule over solana
               Solar PEnguins to rule over solana
             </span>
             <div className="home-btn-group">
@@ -153,10 +151,11 @@ const Home = (props) => {
               <br></br>
             </span>
             <h2 className="home-pricing-heading heading2">
-              How much does it cost?
+              How much do i owe you?
             </h2>
             <span className="home-pricing-sub-heading">
-              Unlock the world of pixelated NFTs with our affordable pricing.
+              Unlock the world of pixelated NFTs with our flexible pricing
+              options.
             </span>
           </div>
           <div className="home-container06">
@@ -168,6 +167,8 @@ const Home = (props) => {
                   world of pixelated NFTs on the Solana blockchain.
                   <SolanaPrice />
                 </span>
+              </div>
+              <div className="home-container08">
               </div>
               <div className="home-container09">
                 <div className="home-container10">
@@ -199,8 +200,8 @@ const Home = (props) => {
         <div className="home-faq-container">
           <div className="home-faq1">
             <div className="home-container12">
-              <h2 className="home-text14 heading2 Heading">Common questions</h2>
-              <span className="home-text15">
+              <h2 className="home-text12 heading2 Heading">Common questions</h2>
+              <span className="home-text13">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -275,7 +276,7 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container15">
+            <div className="home-container13">
               <Question
                 Answer="Pixel Penguins is a pixelated themed website for NFTs on the Solana blockchain."
                 Question="What is Pixel Penguins?"
@@ -285,7 +286,7 @@ const Home = (props) => {
                 Question="What is an NFT?"
               ></Question>
               <Question
-                Answer="To purchase Pixel Penguins, you can visit our website and connect your Solana wallet. From there, you can browse the available Pixel Penguins and make a purchase using SOL."
+                Answer="To purchase Pixel Penguins, you can visit our website and connect your Solana wallet. "
                 Question="How can I purchase Pixel Penguins?"
               ></Question>
               <Question
@@ -293,7 +294,7 @@ const Home = (props) => {
                 Question="Can I sell my Pixel Penguins?"
               ></Question>
               <Question
-                Answer="Owning a Pixel Penguin not only gives you a unique and collectible digital asset, but it also grants you access to exclusive events, giveaways, and future updates related to the Pixel Penguins community."
+                Answer="Owning a Pixel Penguin not only gives you a unique and collectible digital asset, but it also grants you access to exclusive events, giveaways, and future updates related to the Pixel Penguins community. Pixel Pengus will not just be an NFT, they will get usecases and earn revenue in the future"
                 Question="Are there any benefits to owning a Pixel Penguin?"
               ></Question>
             </div>
