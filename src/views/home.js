@@ -91,9 +91,9 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-details">
-        <div className="home-details1">
-          <div className="home-container02">
+      <div className="home-hero">
+        <div className="home-hero1">
+          <div className="home-container01">
             <h2 id="About" className="home-details-heading heading2 Heading">
               About Pixel Penguins
             </h2>
