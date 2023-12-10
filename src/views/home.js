@@ -9,11 +9,9 @@ import SolanaPrice from './SolanaPrice'
 
 const Home = (props) => {
   return (
-    <div className="home-container">
-      <h1>Your NFT Store</h1>
-      <SolanaPrice />
-      {/* Other components and content */}
-    </div>
+ 
+      
+   
     <div className="home-container">
       <Helmet>
         <title>Pixel Pengus</title>
@@ -99,6 +97,8 @@ const Home = (props) => {
           <div className="home-container02">
             <h2 className="home-details-heading heading2 Heading">
               About Pixel Penguins
+              Your NFT Store
+              <SolanaPrice />
             </h2>
             <span className="home-details-sub-heading">
               Pixel Penguins is a revolutionary NFT platform built on the Solana
