@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet'
 
 import FeatureCard from '../components/feature-card'
 import Question from '../components/question'
-import FeatureCard from './feature-card'
 import Question from './question'
 import './home.css'
 import SolanaPrice from './SolanaPrice.js'
@@ -169,6 +168,7 @@ const Home = (props) => {
                 <span className="home-free-plan-description">
                   Get started with Pixel Penguins for 0.1 sol and explore the
                   world of pixelated NFTs on the Solana blockchain.
+                  <SolanaPrice />
                 </span>
               </div>
               <div className="home-container08">
