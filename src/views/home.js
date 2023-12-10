@@ -12,7 +12,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Pixel Penguins</title>
+        <title>Sandy Inconsequential Reindeer</title>
         <meta property="og:title" content="Pixel Penguins" />
       </Helmet>
       <div className="home-header">
@@ -30,9 +30,9 @@ const Home = (props) => {
                 Pricing
               </a>
             </nav>
-          <div className="home-buttons">
-            <ConnectButton />
-          </div>
+            <div className="home-buttons">
+				<ConnectButton />
+			</div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -53,13 +53,10 @@ const Home = (props) => {
                 <span className="home-nav11">About</span>
                 <span className="home-nav21">Features</span>
                 <span className="home-nav31">Pricing</span>
-                <span className="home-nav4">Team</span>
-                <span className="home-nav5">Blog</span>
               </nav>
               <div className="home-buttons">
-                <button className="home-login button">Login</button>
-                <button className="home-register1 button">Register</button>
-              </div>
+				<ConnectButton />
+			  </div>
             </div>
             <div>
               <svg viewBox="0 0 950.8571428571428 1024" className="home-icon04">
@@ -77,10 +74,15 @@ const Home = (props) => {
       </div>
       <div className="home-hero">
         <div className="home-hero1">
+          <img
+            src="/%5Bremoval.ai%5D_e6085c3b-622a-4c4a-9334-c3586dfe2c73-lkrhqtdbil4xzupqw3ev4brt2u-200h.png"
+            alt="image"
+            className="home-image"
+          />
           <div className="home-container01">
             <h1 className="home-hero-heading Heading">Pixel Penguins</h1>
             <span className="home-hero-sub-heading">
-              Solar Penguins to rule over solana
+              Solar PEnguins to rule over solana
             </span>
             <div className="home-btn-group">
               <button className="home-hero-button1 button">Mint</button>
@@ -89,11 +91,18 @@ const Home = (props) => {
               </a>
             </div>
           </div>
+          <div className="home-container02">
+            <img
+              src="/removal-703-200h.png"
+              alt="image"
+              className="home-image1"
+            />
+          </div>
         </div>
       </div>
-      <div className="home-hero">
-        <div className="home-hero1">
-          <div className="home-container01">
+      <div className="home-details">
+        <div className="home-details1">
+          <div className="home-container03">
             <h2 id="About" className="home-details-heading heading2 Heading">
               About Pixel Penguins
             </h2>
@@ -106,13 +115,13 @@ const Home = (props) => {
               blockchain technology.
             </span>
           </div>
-          <img alt="image" src="/155-400h.png" className="home-details-image" />
+          <img alt="image" src="/gif-400h.gif" className="home-details-image" />
         </div>
       </div>
       <div className="home-features">
         <div className="home-features-container">
           <div id="Features" className="home-features1">
-            <div className="home-container03">
+            <div className="home-container04">
               <h2 className="home-features-heading heading2 Heading">
                 Discover the Features of Pixel Penguins
               </h2>
@@ -121,7 +130,7 @@ const Home = (props) => {
                 must-have NFT collection.
               </span>
             </div>
-            <div className="home-container04">
+            <div className="home-container05">
               <FeatureCard
                 Heading="Unique Pixelated Artwork"
                 SubHeading="Discover a collection of one-of-a-kind pixelated artwork created by talented artists."
@@ -139,13 +148,53 @@ const Home = (props) => {
                 SubHeading="Join a vibrant community of collectors and artists, where you can buy, sell, and interact with fellow Pixel Penguins enthusiasts."
               ></FeatureCard>
             </div>
+            <div className="home-container06">
+              <div className="home-container07"></div>
+            </div>
+            <img
+              src="/%5Bremoval.ai%5D_dbd5a1dd-619d-4fe9-83d9-228402feeb7e_23-1200h.png"
+              alt="image"
+              className="home-image2"
+            />
+            <div className="home-container08">
+              <div className="home-container09">
+                <img
+                  src="/%5Bremoval.ai%5D_62d336a8-77f2-44f8-9d8c-3777a2abf79e-108-200h.png"
+                  alt="image"
+                  className="home-image3"
+                />
+                <img
+                  src="/%5Bremoval.ai%5D_49b06c7c-77f1-4874-bccb-3beaec0d0cd2-cryptocurrency-solana-logo-graphics-13460284-1-200h.png"
+                  alt="image"
+                  className="home-image4"
+                />
+              </div>
+              <h1>
+                <span>Pengus in their</span>
+                <br></br>
+                <span>natural habitat</span>
+                <br></br>
+              </h1>
+              <div className="home-container10">
+                <img
+                  src="/%5Bremoval.ai%5D_bffb921e-1fd2-481c-9580-32c1df2ffca6-166-200h.png"
+                  alt="image"
+                  className="home-image5"
+                />
+                <img
+                  src="/%5Bremoval.ai%5D_49b06c7c-77f1-4874-bccb-3beaec0d0cd2-cryptocurrency-solana-logo-graphics-13460284-1-200h.png"
+                  alt="image"
+                  className="home-image6"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="home-pricing">
         <div className="home-pricing1">
-          <div className="home-container05">
-            <span id="Pricing" className="home-text03 Content sectionTitle">
+          <div className="home-container11">
+            <span id="Pricing" className="home-text08 Content sectionTitle">
               <span>Pricing</span>
               <br></br>
             </span>
@@ -157,27 +206,26 @@ const Home = (props) => {
               options.
             </span>
           </div>
-          <div className="home-container06">
+          <div className="home-container12">
             <div className="home-pricing-card">
-              <div className="home-container07">
+              <div className="home-container13">
                 <span className="Content heading3">0.1 Sol per NFt</span>
                 <span className="home-free-plan-description">
                   Get started with Pixel Penguins for 0.1 sol and explore the
                   world of pixelated NFTs on the Solana blockchain.
-                  <SolanaPrice />
+				  <SolanaPrice />
                 </span>
               </div>
-              <div className="home-container08">
-              </div>
-              <div className="home-container09">
-                <div className="home-container10">
-                  <span className="home-text07">✔</span>
+              
+              <div className="home-container15">
+                <div className="home-container16">
+                  <span className="home-text12">✔</span>
                   <span className="home-free-plan-features">
                     Access to a limited collection of pixelated NFTs
                   </span>
                 </div>
-                <div className="home-container11">
-                  <span className="home-text08">✔</span>
+                <div className="home-container17">
+                  <span className="home-text13">✔</span>
                   <span className="home-free-plan-features1">
                     Ability to buy and sell your Pixel Pengus on any supported
                     marketplace
@@ -198,9 +246,9 @@ const Home = (props) => {
       <div className="home-faq">
         <div className="home-faq-container">
           <div className="home-faq1">
-            <div className="home-container12">
-              <h2 className="home-text12 heading2 Heading">Common questions</h2>
-              <span className="home-text13">
+            <div className="home-container18">
+              <h2 className="home-text17 heading2 Heading">Common questions</h2>
+              <span className="home-text18">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -275,7 +323,7 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container13">
+            <div className="home-container19">
               <Question
                 Answer="Pixel Penguins is a pixelated themed website for NFTs on the Solana blockchain."
                 Question="What is Pixel Penguins?"
@@ -302,7 +350,7 @@ const Home = (props) => {
       </div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container14">
+          <div className="home-container20">
             <a href="#Top" className="home-logo2">
               PIXELPENGUINS
             </a>
@@ -319,8 +367,8 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container15">
-            <span className="home-text30">
+          <div className="home-container21">
+            <span className="home-text35">
               © 2023 Solar Pixel Pengus, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
