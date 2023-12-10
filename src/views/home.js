@@ -35,6 +35,64 @@ const Home = (props) => {
               </span>
             </button>
           </div>
+		  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phantom Wallet Connect</title>
+  <!-- Include Phantom Wallet script -->
+  <script src="https://solana-labs.github.io/wallet-adapter/lib/wallets/phantom.js"></script>
+  <!-- Add your custom CSS styling -->
+  <style>
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h1>Your Solana App</h1>
+    <!-- Connect button container -->
+    <div>
+      <button id="connectButton">Connect with Phantom Wallet</button>
+    </div>
+    <!-- Display connected wallet address -->
+    <div id="walletAddress"></div>
+  </div>
+
+  <script>
+    // Function to connect with Phantom Wallet
+    const connectWithPhantom = async () => {
+      if (window.solana && window.solana.isPhantom) {
+        try {
+          // Connect to Phantom Wallet
+          await window.solana.connect();
+          // Get connected wallet address
+          const walletAddress = window.solana.publicKey.toString();
+          // Display wallet address
+          document.getElementById('walletAddress').innerText = `Connected to Phantom Wallet: ${walletAddress}`;
+        } catch (error) {
+          console.error('Error connecting to Phantom Wallet:', error.message);
+        }
+      } else {
+        console.error('Phantom Wallet not detected. Make sure it is installed.');
+      }
+    };
+
+    // Attach connectWithPhantom function to the button click event
+    document.getElementById('connectButton').addEventListener('click', connectWithPhantom);
+  </script>
+
+</body>
+</html>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
