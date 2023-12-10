@@ -5,9 +5,15 @@ import { Helmet } from 'react-helmet'
 import FeatureCard from '../components/feature-card'
 import Question from '../components/question'
 import './home.css'
+import SolanaPrice from './SolanaPrice'
 
 const Home = (props) => {
   return (
+    <div className="home-container">
+      <h1>Your NFT Store</h1>
+      <SolanaPrice />
+      {/* Other components and content */}
+    </div>
     <div className="home-container">
       <Helmet>
         <title>Pixel Pengus</title>
