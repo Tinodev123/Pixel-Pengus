@@ -75,7 +75,7 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-hero1">
           <img
-            src="/%5Bremoval.ai%5D_e6085c3b-622a-4c4a-9334-c3586dfe2c73-lkrhqtdbil4xzupqw3ev4brt2u-200h.png"
+            src="rocket.png"
             alt="image"
             className="home-image"
           />
@@ -93,7 +93,7 @@ const Home = (props) => {
           </div>
           <div className="home-container02">
             <img
-              src="/removal-703-200h.png"
+              src="rocketpengu.png"
               alt="image"
               className="home-image1"
             />
@@ -152,19 +152,19 @@ const Home = (props) => {
               <div className="home-container07"></div>
             </div>
             <img
-              src="/%5Bremoval.ai%5D_dbd5a1dd-619d-4fe9-83d9-228402feeb7e_23-1200h.png"
+              src="pengu4.png"
               alt="image"
               className="home-image2"
             />
             <div className="home-container08">
               <div className="home-container09">
                 <img
-                  src="/%5Bremoval.ai%5D_62d336a8-77f2-44f8-9d8c-3777a2abf79e-108-200h.png"
+                  src="pengu2.png"
                   alt="image"
                   className="home-image3"
                 />
                 <img
-                  src="/%5Bremoval.ai%5D_49b06c7c-77f1-4874-bccb-3beaec0d0cd2-cryptocurrency-solana-logo-graphics-13460284-1-200h.png"
+                  src="Pengu1.png"
                   alt="image"
                   className="home-image4"
                 />
@@ -177,12 +177,12 @@ const Home = (props) => {
               </h1>
               <div className="home-container10">
                 <img
-                  src="/%5Bremoval.ai%5D_bffb921e-1fd2-481c-9580-32c1df2ffca6-166-200h.png"
+                  src="pengu3.png"
                   alt="image"
                   className="home-image5"
                 />
                 <img
-                  src="/%5Bremoval.ai%5D_49b06c7c-77f1-4874-bccb-3beaec0d0cd2-cryptocurrency-solana-logo-graphics-13460284-1-200h.png"
+                  src="Pengu1.png"
                   alt="image"
                   className="home-image6"
                 />
@@ -199,7 +199,7 @@ const Home = (props) => {
               <br></br>
             </span>
             <h2 className="home-pricing-heading heading2">
-              How much do i owe you?
+              What does a Pengu cost?
             </h2>
             <span className="home-pricing-sub-heading">
               Unlock the world of pixelated NFTs with our flexible pricing
