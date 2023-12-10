@@ -153,11 +153,10 @@ const Home = (props) => {
               <br></br>
             </span>
             <h2 className="home-pricing-heading heading2">
-              How much do i owe you?
+              How much does it cost?
             </h2>
             <span className="home-pricing-sub-heading">
-              Unlock the world of pixelated NFTs with our flexible pricing
-              options.
+              Unlock the world of pixelated NFTs with our affordable pricing.
             </span>
           </div>
           <div className="home-container06">
@@ -169,9 +168,6 @@ const Home = (props) => {
                   world of pixelated NFTs on the Solana blockchain.
                   <SolanaPrice />
                 </span>
-              </div>
-              <div className="home-container08">
-                <span className="Content">0.1 Sol =</span>
               </div>
               <div className="home-container09">
                 <div className="home-container10">
