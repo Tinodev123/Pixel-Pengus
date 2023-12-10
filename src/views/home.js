@@ -30,7 +30,9 @@ const Home = (props) => {
                 Pricing
               </a>
             </nav>
+          <div className="home-buttons">
             <ConnectButton />
+          </div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -78,7 +80,7 @@ const Home = (props) => {
           <div className="home-container01">
             <h1 className="home-hero-heading Heading">Pixel Penguins</h1>
             <span className="home-hero-sub-heading">
-              Solar PEnguins to rule over solana
+              Solar Penguins to rule over solana
             </span>
             <div className="home-btn-group">
               <button className="home-hero-button1 button">Mint</button>
