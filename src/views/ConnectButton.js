@@ -17,7 +17,7 @@ const ConnectButton = () => {
 
   return (
     <div>
-      <button className="home-login button" onClick={connectWithPhantom}>Connect with Phantom Wallet</button>
+      <button className="home-login button" onClick={connectWithPhantom}>Connect</button>
     </div>
   );
 };
