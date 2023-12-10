@@ -199,8 +199,8 @@ const Home = (props) => {
         <div className="home-faq-container">
           <div className="home-faq1">
             <div className="home-container12">
-              <h2 className="home-text12 heading2 Heading">Common questions</h2>
-              <span className="home-text13">
+              <h2 className="home-text14 heading2 Heading">Common questions</h2>
+              <span className="home-text15">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -275,7 +275,7 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container13">
+            <div className="home-container15">
               <Question
                 Answer="Pixel Penguins is a pixelated themed website for NFTs on the Solana blockchain."
                 Question="What is Pixel Penguins?"
@@ -285,7 +285,7 @@ const Home = (props) => {
                 Question="What is an NFT?"
               ></Question>
               <Question
-                Answer="To purchase Pixel Penguins, you can visit our website and connect your Solana wallet. "
+                Answer="To purchase Pixel Penguins, you can visit our website and connect your Solana wallet. From there, you can browse the available Pixel Penguins and make a purchase using SOL."
                 Question="How can I purchase Pixel Penguins?"
               ></Question>
               <Question
@@ -293,7 +293,7 @@ const Home = (props) => {
                 Question="Can I sell my Pixel Penguins?"
               ></Question>
               <Question
-                Answer="Owning a Pixel Penguin not only gives you a unique and collectible digital asset, but it also grants you access to exclusive events, giveaways, and future updates related to the Pixel Penguins community. Pixel Pengus will not just be an NFT, they will get usecases and earn revenue in the future"
+                Answer="Owning a Pixel Penguin not only gives you a unique and collectible digital asset, but it also grants you access to exclusive events, giveaways, and future updates related to the Pixel Penguins community."
                 Question="Are there any benefits to owning a Pixel Penguin?"
               ></Question>
             </div>
